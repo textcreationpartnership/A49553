@@ -1,0 +1,780 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mr. Langhorn's memoires, with some meditations and devotions of his, during his imprisonment as also his petition to His Majesty, and his speech at his execution.</title>
+            <author>Langhorne, Richard, 1654-1679.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1679</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 90 KB of XML-encoded text transcribed from 13 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A49553</idno>
+            <idno type="STC">Wing L397</idno>
+            <idno type="STC">ESTC R5132</idno>
+            <idno type="EEBO-CITATION">13483776</idno>
+            <idno type="OCLC">ocm 13483776</idno>
+            <idno type="VID">99718</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A49553)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 99718)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 461:19)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Mr. Langhorn's memoires, with some meditations and devotions of his, during his imprisonment as also his petition to His Majesty, and his speech at his execution.</title>
+                  <author>Langhorne, Richard, 1654-1679.</author>
+               </titleStmt>
+               <extent>[2], 22 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.],</publisher>
+                  <pubPlace>[London? :</pubPlace>
+                  <date>1679.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>A collection of trials dealing chiefly with the Popish plot.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Langhorne, Richard, 1654-1679.</term>
+               <term>Popish Plot, 1678.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-11</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2009-11</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:99718:1" rendition="simple:additions"/>
+            <p>Mr. <hi>LANGHORN</hi>'s MEMOIRES, WITH SOME MEDITATIONS AND DEVOTIONS Of his, During his Impriſonment: AS ALSO HIS Petition to His Majeſty, AND HIS SPEECH AT HIS EXECUTION.</p>
+            <p>
+               <hi>All which were Left by him, and Written with his own Hand.</hi>
+            </p>
+            <p>Printed in the Year M.DC.LXXIX.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:99718:2"/>
+            <pb n="1" facs="tcp:99718:2"/>
+            <p>BEing adjudged to dye by a Publick Judgment, for the Crime of High-Treaſon, Charged and Sworn againſt me at my Tryal by two Witneſſes, namely Mr. <hi>Oates</hi> and Mr. <hi>Bedloe;</hi> And having both before my Tryal, and after the Judgment given, declared my Innocency to All with whom I have had the Liberty to converſe ſince my firſt Impriſonment, I take it to be my Duty to leave a Teſtimony under my Hand, for the farther Juſtification of my Innocency, and of the Truth, againſt all thoſe Calumnies which have been, and may be laboured by ill Men to be caſt upon me; And the rather, be<g ref="char:EOLhyphen"/>cauſe I do not know whether it will be allowed me to ſpeak with freedom at my death; or if that ſhould be permitted, yet I well know that what I may then ſay, may be miſrepreſented to the prejudice of Truth.</p>
+            <p>I am not in the mean time ignorant, what prejudice I lie under, and how difficult it is for me to expreſs my ſelf in ſuch words, as may gain Belief with the World But my deſign being only to ſatisfie good Men, who accuſtom themſelves to judge according to the Rules of right Reaſon; And as they would have others judge of them; I ſhall not much care for the Cenſure of the Multitude.</p>
+            <p>The Crime which I am Charged, is the moſt heinous of all Crimes; But whether I am in Truth Guilty, can only lie within the knowledge of the Great God, who is the Searcher of all Hearts, my own Conſcience, and the Conſciences of my before-named Accuſers. My God, I am ſure, knows my Innocency, and will acquit me at the great day of Judgment. My Conſcience with great Joy and Peace bears me witneſs, that I am ſo perfectly innocent of the Treaſon for which I ſtand Condemned, That it invokes Almighty God to witneſs, that I was never in the whole courſe of my life guilty of ſo much as one Diſloyal Thought againſt my Sovereign Lord King <hi>CHARLES</hi> the Second, whom I here own in the preſence of God, to be my True and Lawful King and Sovereign, taking the words in the ſame ſenſe in which they are taken and intended, in the Oath commonly called, <hi>The Oath of Alle<g ref="char:EOLhyphen"/>giance.</hi>
+            </p>
+            <p>As to all other Perſons who have judged, or ſhall take upon them to judge of me, whether I am Guilty or not Guilty of that Crime, of which I here profeſs my ſelf to be Innocent, I am ſure that according to Reaſon they muſt diſclaim, to make any Judgment up<g ref="char:EOLhyphen"/>on ſcience or ſtrict knowledge; And muſt own, if that they can make no other Judgment, than what muſt be grounded upon their Belief, which can never have, or pretend to have any greater or higher certainty, than the Motives of the Credibility upon which it is built and grounded.</p>
+            <p>I do not, nor would I be taken to arraign the Juſtice of the King, of the Government, of the Judges, before whom I was Tryed; or of the Jury who gave the Verdict upon which Judgment was given againſt me, whileſt I pretend to examine the motives of Credibility upon which a Judgment of Belief in this Caſe is to be grounded In the mean time I hope that neither His Majeſty, nor my Lords the Judges, nor my Jury will take it ill, if I preſume to ſay, That neither the Judges, nor the Juries of <hi>England</hi> do, or ever did claim to be gui<g ref="char:EOLhyphen"/>ded in their Proceedings in Caſes of this nature, by any Spirit of Infallibility. The Lord <hi>Coke,</hi> in his Pleas of the Crown, reports a ſad, but very true Caſe of a Perſon Condemned and Executed for the Murther of a Girl, who, after the Execution of the Party ſo Condemn<g ref="char:EOLhyphen"/>ed, was found to be living, and in perfect health. And I think it is well known to moſt Men of our Times, that even ſince His now Majeſties Happy Reſtauration to His Crown and Dignities, there hapned a more ſad Accident, where three Perſons, <hi>viz.</hi> the Mother and two Sons were Condemned, Executed, and Hanged in Chains, for the Murther of a Perſon, who was afterwards found to be living, and never to have been any wayes aſſaulted, or hurt by thoſe who were Executed for his Murther. Here then there were innocent Perſons Con<g ref="char:EOLhyphen"/>demned and Executed by Publick Verdicts and Judgments; And what hath happened, may again happen; and yet the Juries, the Judges, the Juſtice, the King and Government no way blemiſhed, they proceed, and muſt always be taken to proceed according to the Rules of Law and Juſtice. But there was certainly great Faults ſomewhere in thoſe two Notorious Caſes before-mentioned; as there is likewiſe in my Caſe, ſuppoſing it to be true what I here af<g ref="char:EOLhyphen"/>firm in the preſence of God, to be true in relation to my Innocency, notwithſtanding the Judgment given againſt me.</p>
+            <pb n="2" facs="tcp:99718:3"/>
+            <p>Having therefore diſclaimed, as I here again do, all Intentions of Arraigning the Juſtice of my King, my Judges, or my Jury, I will recommend to be conſidered the Motives of which a right Judgment grounded upon Belief is to be made by Men not byaſſed by Paſſion or Pre<g ref="char:EOLhyphen"/>judice, touching my being Guilty or Innocent of that horrid Crime, of which by Judgment of Law I ſtand Condemned; which Motives of Credibility can only be truly and clearly known and repreſented, by a juſt, true, and ſincere ſtating of my Caſe, with all its Circum<g ref="char:EOLhyphen"/>ſtances, with as much brevity as it is capable of, which I here give as followeth.</p>
+            <p>The firſt news which I had, and the firſt mention which I ever heard of this Plot and Treaſon againſt His Majeſty, for which ſo many have been lately Executed, and for which I ſtand Condemned, was on the 29th of <hi>September</hi> laſt, when I heard ſeveral Prieſts were ta<g ref="char:EOLhyphen"/>ken, and in Cuſtody, being Charged by one Mr. <hi>Oates</hi> for High Treaſon. On <hi>Monday</hi> come ſeven-night after, being the 7th of <hi>October,</hi> I was my ſelf ſeized on in my Chamber in the <hi>Temple,</hi> by a Meſſenger of the Council, by vertue of a Warrant under the hands of Four Privy Councillors, iſſued out againſt <hi>John Langhorne</hi> 
+               <abbr>Eſq</abbr> my name being <hi>Richard,</hi> I told the Meſſenger that he could not ſeize me by vertue of that Warrant. To which he anſwer<g ref="char:EOLhyphen"/>ed, That he believed me the Perſon intended, and would run the hazard; whereupon I ſub<g ref="char:EOLhyphen"/>mitted, and went with him to <hi>Newgate.</hi> And though upon my coming thither, I told the chief Gaoler Captain <hi>Richardſon,</hi> that he could not juſtifie the detaining of my Perſon by vertue of that Warrant; He not only told me, that he would run the hazard of it, but im<g ref="char:EOLhyphen"/>mediately made me a cloſe Priſoner, and continued me ſo, with the utmoſt ſtrictneſs, for about eight Months. From hence it muſt in all reaſon be agreed, that there being a full Week paſſed from the time wherein I heard of Perſons being Committed for the Plot, to the time of my being ſeized, I muſt be a perfect Mad-man to appear publickly, and not to ſlie or conceal my ſelf, if I were conſcious of any the leaſt imaginable Guilt. And the ſame con<g ref="char:EOLhyphen"/>cluſion muſt neceſſarily follow, upon my ſo quiet ſubmitting my ſelf upon a Warrant made againſt one of another name, to one who had no Title by his Warrant to make me a Pri<g ref="char:EOLhyphen"/>ſoner. And it may reaſonably alſo be conceived, that Mr. <hi>Oates,</hi> upon whoſe ſole Informa<g ref="char:EOLhyphen"/>tion (as I have ſince heard) that Warrant was iſſued, was not ſo well acquainted with me as at my Tryal he ſwore himſelf to be, ſince he knew not my right Chriſtian name, of which ſcarce any Perſons were ignorant, who ever had any manner of Converſation or Buſineſs with me.</p>
+            <p>After <hi>Michaelmas</hi> Term, having continued under the before-mentioned cloſe Impriſon<g ref="char:EOLhyphen"/>ment for two Months, without ever having been ſo much as Examined, or told what I was Committed for; I conſidered that too long a ſilence on my part, might poſſibly be rather taken for a Sullenneſs, than Patience. And that there being a Seſſions then very near, it im<g ref="char:EOLhyphen"/>ported me to prevent, as far as I could, that I ſhould not be ſurprized by a Tryal; and hur<g ref="char:EOLhyphen"/>ried from my cloſe impriſonment to a Bar, without being permitted to ſpeak with any of my Friends, or to prepare for my Tryal. Hereupon I addreſſed my ſelf to the ſaid Captain <hi>Richardſon,</hi> to procure leave to addreſs a Petition to His Majeſty; and having leave, I did about the 10th day of <hi>December,</hi> deliver a Petition to my ſaid Keeper, to be Humbly pre<g ref="char:EOLhyphen"/>ſented by him to His Majeſty, there being no poſſibility for me to put the ſame into any other hand to be delivered. Whether this Petition did ever come to His Majeſty, or not, I could not know with certainty, but I believe it did; the ſubſtance of it was, to repreſent the miſeries of my cloſe Impriſonment, together with my Innocency, and total Ignorance of all particular matters with which I could be Charged; and to pray, that I might be ad<g ref="char:EOLhyphen"/>mitted to an Examination; and confronted with my Accuſers, as I conceive the Law requi<g ref="char:EOLhyphen"/>red, to the End I might juſtifie my ſelf before His Majeſty, and be diſcharged, if there ſhould appear no juſt Cauſe for my being longer detained; or otherwiſe, that by knowing what was Charged againſt me, I might be enabled to make my juſt Defence at my Tryal; and might for that purpoſe have the liberty of the Gaol, and of ſpeaking freely with my Friends, and of ſending for ſuch Witneſſes as I ſhould have occaſion to uſe for my juſt De<g ref="char:EOLhyphen"/>fence; and might not be ſurprized and hurried to a Tryal, without any poſſibility of being able to make any Defence.</p>
+            <p>To this Petition I could never obtain any Anſwer; but about the 16th day of <hi>December,</hi> I was ſent for down out of my Chamber, into Captain <hi>Richardſon</hi>'s Houſe, where I found three Noble Lords of Parliament, who profeſſed to come to me in Charity, as I believe they
+<pb n="3" facs="tcp:99718:3"/>did. Theſe Noble Lords, when I was brought into their preſence, were pleaſed to tell me, That I ſtood Charged with High-Treaſon (but of what in particular, they did not ſay) and that there was great and evident Proof againſt me, which would moſt certainly take away my Life. And that they had heard ſo good a Character of me in the World, That they were moved in Charity and Compaſſion to come to me, to adviſe me to make a free and full Confeſſion of the Plot and Treaſon againſt His Majeſty and the Government, with which I ſtood Charged, and thereby ſave my Life. And they were pleaſed to offer me to become my Mediators for a Pardon, for the ſaving of my Life, and of my Eſtate, in caſe I would make ſuch Confeſſion. I was much amazed to hear of ſuch a Charge againſt me, when my Conſcience cleared me from all Guilt of that nature, ſo much as in thought. I therefore asked their Lordſhips, Whether from the Character they had received of me in the World, they did believe me to be an Honeſt man? To which it was anſwered by one of their Lordſhips, That their Anſwer to that Queſtion of mine was to be diſtinguiſhing, <hi>viz.</hi> That I had ſo good and unblemiſhed a Reputation in the World, that if I were to give Evidence in any Concern of Ten or twenty thouſand Pounds, he ſhould value my Evidence as highly as any Mans Evidence whatſoever; But that in this preſent Caſe, if I ſhould ſwear my Innocency, or that I knew nothing of the Plot or Treaſon with which I was Charged, his Lordſhip would not believe one word that I ſhould ſwear. This Anſwer made me ſee, That it would be in vain for me to make any Aſſeverations to their Lordſhips of my Innocence and Ignorance of any Plot deſigned againſt His Majeſty; wherefore omitting that, I humbly repreſented my condition to their Lordſhips, as to my cloſe Impriſonment, and my never having been Examined, ſo as to make me capable of making a juſt Defence, by a fore knowledge of what was Charged againſt me. And I told them, That although it was ſuppoſed by the Law, that in Criminal Caſes the Affirmative was to be proved by the King's Witneſſes, and that a Negative could not be proved; yet it was known by all, that there might in many Caſes ſuch Affirmatives be proved by the Priſoner as to many cir<g ref="char:EOLhyphen"/>cumſtances, as might clearly prove the Affirmative, ſworn by the King's Witneſſes, to be impoſſible to be true. And that for this Reaſon, if I ſhould be ſurprized by a ſudden Tryal, without knowing what was Charged againſt me, and the circumſtances of the Charge, and without having the liberty of the Gaol, and of my Friends coming freely to me, in order to my preparing for my Tryal, and for my juſt Defence, it would be the ſame thing as to mur<g ref="char:EOLhyphen"/>der me. To all which, one of the ſaid Lords replied, (it was the Earl of <hi>Shaftsbury</hi>) That he took this way of cloſe Impriſonment to be Illegal, and that to be ſo ſurprized by a Tryal, would be the ſame thing as to cut my Throat; and his Lordſhip did thereupon tell me, That care ſhould be taken, that I ſhould have a juſt liberty and freedom in the Gaol for my Friends to come to me, and ſhould not be ſurprized by a Tryal, as I ſeared to be.</p>
+            <p>This Promiſe of this Noble Lord gave me great comfort; but notwithſtanding this, my cloſe Impriſonment continued. My opinion was, that I was forgotten; and therefore I did ſeveral times ſend to Captain <hi>Richardſon,</hi> to put their Lordſhips in mind of it; and when that was without effect, I apprehended that Captain <hi>Richardſon</hi> neglected me. But I find ſince, that thoſe Lords muſt have been underſtood to have intended to move the Houſe of Lords, in relation to the making good of that Promiſe; and that by the Diſſolving of that Parliament, (which hapned ſhortly after, though unknown then to me) there was no poſſibility for the making of ſuch motion.</p>
+            <p>My cloſe Impriſonment continuing in <hi>January</hi> or <hi>February</hi> following, my poor Wife pro<g ref="char:EOLhyphen"/>cured leave from His Majeſty to ſee me; but not otherwiſe, than in the preſence of my Keeper. Upon her coming, I bemoaned my ſelf to her, that I was totally ignorant of what was Charged againſt me; and had ſtill a continuance of my Fear, that I ſhould be ſurpri<g ref="char:EOLhyphen"/>zed with a Tryal, without being able to make any Defence. My Wife, much troubled to hear this, could not give me any anſwer to remove my apprehenſion, becauſe Captain <hi>Richardſon</hi> was preſent; but againſt the time of her next coming to me, ſhe procured an Abſtract to be made of the ſeveral Narratives of Mr. <hi>Colemans</hi> and Mr. <hi>Irelands</hi> Tryals; and when ſhe came next, ſhe endeavoured to give it to me, to the end I might from thence know what was at thoſe Tryals given in Evidence relating to me. But Captain <hi>Richardſon</hi> diſcovering her intention, took the Paper; and though he told me he would reſtore it to her, he carried it to the Privy Council, and would not permit my Wife to ſee me any more.</p>
+            <pb n="4" facs="tcp:99718:4"/>
+            <p>Upon the delivery of the before-mentioned Paper to the Council, (which was on the firſt day of <hi>March</hi>) a moſt worthy Friend of mine had Licence from His Majeſty to come to me, to exhort me to confeſs my knowledge of the Plot, to repreſent unto me my danger, if I refuſed; and to give me hopes of a free Pardon, in caſe I complied therein In truth he repreſented my condition to me ſo diſmally, that had not Almighty God been very mer<g ref="char:EOLhyphen"/>ciful unto me, his diſcourſes would have been of ſufficient force to have deprived me of my underſtanding. In ſhort, he both told me I was to expect no Mercy, without a diſcovery made by me of the Plot, and that there was two or three expreſs Witneſſes againſt me, who had been believed already by ſeveral Juries; and that it was unreaſonable in me to expect, that other Juries ſhould not believe what former Juries had believed. He added, That the whole People were ſo poſſeſſed of a full belief of the Plot, from the Teſtimony of thoſe Witneſſes, and of ſuch ſtrange an Abhorrence againſt all of my Religion, that whatever could be ſaid againſt me, would be believed by every Jury; and whatever I ſhould pretend to give in Evidence for my Defence, would be disbelieved and rejected, though an Angel ſhould come from Heaven to confirm it. To all which I gave anſwer, That my Truſt and Reliance was in my God, and onely in Him, that I had no doubt but my God, who knew my Innocency, would ſtand by me and aſſiſt me, and find ſome way for the juſtification of my Innocency, which to him I did averr and declare in the Preſence of God, and by invoking his Divine Majeſty, to teſtifie the Truth of what I ſo averred and declared, with all the So<g ref="char:EOLhyphen"/>lemnity that I could uſe, and that can be uſed by a Chriſtian in any caſe of like nature. I told him that there muſt be two ſeveral Perſons perjured, or I muſt be ſafe; and I could not think that two Perſons ſhould conſpire in Perjury, for the deſtroying of ſo inconſide<g ref="char:EOLhyphen"/>rable a Perſon as I knew my ſelf to be. And I added, that in caſe my God ſhould ſo far withdraw his Grace from me, by abandoning me to a Reprobate Senſe, as to leave me to ſubmit to the Temptation of charging other Perſons faſlly with any Crime or Plot, by which I ſhould endanger the Lives of others, for the ſaving of my own Life, I was totally igno<g ref="char:EOLhyphen"/>rant how to frame a Plot that ſhould ſeem credible; and could not in poſſibility frame any thing that could agree with what was at the preſent affirmed by my Accuſers, I being to<g ref="char:EOLhyphen"/>tally ignorant of what they had affirmed</p>
+            <p>After this Perſon had left me, I was in the beginning of <hi>March,</hi> and about one or two days before the meeting of the now Parliament, again ſent for down into Captain <hi>Rich<g ref="char:EOLhyphen"/>ardſon</hi>'s Houſe, where I found two moſt Honourable Lords of His Majeſties Council, who gave me the ſame Exhortation and Invitation, in order to a diſcovery of the Plot, as I had received before from my other Friend; with this great addition, That their Lordſhips ſhew'd me an Order of Council to ſecure me of my Pardon, in caſe I ſhould make ſuch Diſcovery; but with this Condition, that I muſt make it then, or elſe the aſſurance of Par<g ref="char:EOLhyphen"/>don, promiſed by that Order, to be void.</p>
+            <p>My Conſcience being clear and innocent, I made the ſame Anſwers to theſe Noble Lords, as I had done to the former Perſon who had been ſent to me; whereupon, before their de<g ref="char:EOLhyphen"/>parture, they delivered into my hands that Paper which my Wife had formerly prepared for me, it being (as I found) the Opinion of His Majeſty, and of the Council, that I ſhould have it.</p>
+            <p>Upon all theſe Circumſtances duely conſidered, I hope it will appear to every charitable Judgment, That if I had been in the leaſt meaſure conſcious to my ſelf of any Treaſon, I muſt (as I have ſaid before) be eſteemed to have totally loſt my underſtanding, and to have become a perfect Lunatique, in refuſing to Diſcover what (in caſe I had been Guilty) I could not but ſee would be proved againſt me, eſpecially when my Diſcovery was ſo fully ſecured, of producing me a Pardon.</p>
+            <p>My cloſe Impriſonment continued until two or three days before <hi>Whitſunday,</hi> about which time it was allowed to ſome of my Friends to come to me with freedom, in order to my preparing for my Tryal, which was appointed to be at the end of <hi>Whitſon week.</hi> By theſe Friends, I had the Printed Narrative brought to me of all the former Tryals relating to this Plot, but I could have no light (otherwiſe than from them) of what would be Charged againſt me in Evidence.</p>
+            <p>I found it given in Evidence by Mr. <hi>Oats</hi> at Mr. <hi>Coleman</hi>'s Tryal, That he communicated the ſubſtance of a Treaſonable Conſult unto me, on the 25th of <hi>April</hi> 1678 <hi>The very next
+<pb n="5" facs="tcp:99718:4"/>day</hi> (as he then ſwore) <hi>after the Conſult,</hi> and ſaw ſeveral Commiſſions then in my Cham<g ref="char:EOLhyphen"/>ber lying before me; and that after that time, he had never ſeen me. And I was glad to find that he had (as I conceive by what he then ſwore) lockt himſelf up by his Oath to a time, and could not, without Perjury, charge any thing againſt me as done after that time. And ſo far as I could make any Judgment of what was depoſed by Mr. <hi>Bedloe</hi> againſt me at Mr. <hi>Ireland</hi>'s Tryal, touching my Regiſtring the Conſults of the Jeſuits, I conceived it was only intended by him upon his hear-ſay. This was the whole (ſo far as I could ga<g ref="char:EOLhyphen"/>ther from the printed Narrative) of what appeared to be charged. I did remember the name of <hi>Oates,</hi> having once by his hand received a Letter; but I did not remember his Per<g ref="char:EOLhyphen"/>ſon. And as for Mr. <hi>Bedloe,</hi> I did not remember ever at any time to have heard his name.</p>
+            <p>I found alſo from the ſaid Narratives, That the Court had declared both thoſe Witneſſes to be Ill Men. And as to Mr. <hi>Oates,</hi> I found that he had owned himſelf to have been firſt a Proteſtant, then a Roman Catholique; and now upon this Charge laid by him upon me, and others, (of more Value in the World by much, than my poor ſelf) to profeſs himſelf again to be a Proteſtant. I alſo found, That upon comparing the ſeveral Evidences which he had given againſt others, he had apparently contradicted himſelf, and affirmed ſeveral things which could not ſubſiſt to be all true, becauſe they were contradictory one to the other. And as to Mr. <hi>Bedloe,</hi> I found by the Narrative of Mr. <hi>Reading</hi>'s Tryal, That he ſwore himſelf at that Tryal to be ſlatly Perjured, when he gave Evidence againſt Mr. <hi>White<g ref="char:EOLhyphen"/>bread</hi> and Mr. <hi>Fenwyck</hi> at Mr. <hi>Ireland</hi>'s Tryal; for being then ſworn to ſpeak the Truth, the whole Truth, and nothing but the Truth againſt the ſaid Mr. <hi>Whitebread</hi> and <hi>Fenwyck.</hi> And having then affirmed upon his ſaid Oath, That he was a Stranger to them, and knew no<g ref="char:EOLhyphen"/>thing to give in Evidence againſt them, he did at the ſaid Tryal of Mr. <hi>Reading,</hi> ſwear that it was impoſſible that he ſhould be ſuch a Stranger to Mr. <hi>Whitebread</hi> and Mr. <hi>Fenwyck,</hi> as he affirmed himſelf to be at their Tryals, when he was ſworn to give Evidence againſt them. I was alſo informed, (and there was a Witneſs to prove the ſame) That when at one of the former Tryals Witneſſes were tendred, to prove that Mr. <hi>Bedloe</hi> was a very Ill Man, and that for that Reaſon no Credit was to be given to him. He anſwered in the Court publickly, That they might ſave their labour to prove how Ill he had been, for he readily owned the worſt things that could be ſaid of him; but that having the King's Pardon, he was ſafe. And as to both Mr. <hi>Oates,</hi> and Mr. <hi>Bedloe,</hi> I was informed from good hands:</p>
+            <list>
+               <item>1. That they had owned themſelves (with what Truth I will not undertake to ſay) Guilty of the ſame Treaſon that they now charged upon me and others; and this was evi<g ref="char:EOLhyphen"/>dent, from what they ſwore at every Tryal.</item>
+               <item>2. That they had received their Pardons more than once each of them.</item>
+               <item>3. That they had received great Rewards for the Evidences by them given againſt others in the ſame caſe.</item>
+               <item>4. That they expected greater and farther Rewards for the Evidence to be given againſt me, and others.</item>
+            </list>
+            <p>All which, I conceived, would render their Evidence unfit to be credited by any Jury, if not wholly invalid in Law.</p>
+            <p>Having gained theſe Lights, after my long Impriſonment, I did with very great longing expect my Tryal, and with great joy went to it when the day came, (which was <hi>Saturday</hi> in <hi>Whitſun-Week,</hi> being the 14th of <hi>June</hi> now paſt) though in my paſſage from the Gaol to the Court, I found my ſelf condemned by the Multitude before my Tryal, which (I thank my God) put me in remembrance of what my bleſſed Jeſus ſuffered, from the like Vote of the People.</p>
+            <p>I ſhall forbear to repeat the Particulars of my Tryal, becauſe I will give no occaſion to think, That I have any intention to Arraign the Juſtice of my King, or of the Government, or of my Judges, or Jury; onely I ſhall crave leave to obſerve theſe following Particulars, <hi>viz.</hi>
+            </p>
+            <list>
+               <item>I. <hi>That the Two firſt Witneſſes which were Sworn for the King, Depoſed nothing againſt me; Thoſe were Mr.</hi> Dugdale, <hi>and Mr.</hi> Prance.</item>
+               <pb n="6" facs="tcp:99718:5"/>
+               <item>II. <hi>That Mr.</hi> Oates, <hi>who was the Third Witneſs Sworn for the King, and the firſt whoſe Evidence charged me, Depoſed, That he had two ſeveral Communications with me ſince the Month of</hi> April 1678. <hi>namely, in</hi> July <hi>and</hi> Auguſt 1678. <hi>whereas at the Try<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> of Mr.</hi> Coleman, <hi>he had expreſly Sworn, That after the Month of</hi> April 1678 <hi>he had never ſeen me to his knowledge or remembrance.</hi>
+               </item>
+               <item>III. <hi>That Mr.</hi> Bedloe <hi>Depoſed, That as he and Mr.</hi> Coleman <hi>were together walking in my Chamber in the</hi> Temple, <hi>he ſaw me Entring ſeveral Treaſonable Letters into a Loo<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> in my Study; and that the ſaid Book was a great Book, lying upon the Desk in my Study: Whereas every perſon who knows my ſaid Chamber, and the ſcituation of my Study, cannot but know, that it is impoſſible to look out of my Chamber into my Study, ſo as to ſee any one Writing there, and that I never had at any time any Desk in my Study.</hi>
+               </item>
+            </list>
+            <p>What paſſed farther at my Tryal I forbear to mention, for the Reaſon before given, but refer to ſuch Narrative of my Tryal, as I hear is publiſhed in Print; which if it be truly made, I thank the Reporter for his Juſtice; if untruly, I then beg of God to pardon the Reporter's Injuſtice. In the mean time I do here, in the Preſence of the Great God, who is the God of Truth, and the Searcher of all Hearts, Declare and Proteſt:</p>
+            <p n="1">1. That as to Mr. <hi>Bedloe,</hi> I do not know, remember or believe, that I ever ſaw him, or heard him ſpeak, before that time that he appeared in the ſaid Court, to give Evidence againſt me at my ſaid Tryal.</p>
+            <p n="2">2. That I did never ſee or ſpeak with Mr. <hi>Oates</hi> at any time ſince the Month of <hi>Novem<g ref="char:EOLhyphen"/>ber</hi> 1677. ſo that I can with great Truth affirm, and do affirm, in the Preſence of the All-knowing God, That whatever was given in Evidence againſt me by the ſaid <hi>Bedloe,</hi> was ut<g ref="char:EOLhyphen"/>terly falſe and untrue. As likewiſe whatever was given againſt me in Evidence by the ſaid <hi>Oates,</hi> as ſpoken by himſelf, or by me, in the Months of <hi>April, July</hi> and <hi>Auguſt,</hi> 1678. o<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> at any other times after the Month of <hi>November</hi> 1677. As alſo what was ſworn in Evi<g ref="char:EOLunhyphen"/>dence againſt me by the ſaid <hi>Oates,</hi> at his firſt coming to me in the Month of <hi>November</hi> 1677. which related to my prejudice; and which I could have proved to be falſe by a very good Witneſs, in caſe I could have foreſeen, that Mr. <hi>Oates</hi> would have had the confidence to have given any thing in Evidence againſt me, as pretended to have been ſpoken by me at that time. But Mr. <hi>Oates,</hi> at the Tryal of Mr. <hi>Coleman,</hi> gave a clear evidence of his skill in this kind of Fencing, and of his great care and cunning, to prevent that no Perſon, whoſe Life he deſigns to take away by his Evidence, ſhall ever be able to know what he intends to ſwear, or conſequently to produce any Witneſs to diſcover or diſprove his Perjuries: For be<g ref="char:EOLhyphen"/>ing then upon his Oath, and being interrogated what he had informed againſt Mr <hi>Coleman</hi> before His Majeſty and the Council at Mr. <hi>Coleman</hi>'s Examination there, before he was Com<g ref="char:EOLhyphen"/>mitted to <hi>Newgate,</hi> Mr. <hi>Oates</hi> did not bluſh to ſwear, That he did only at that time inform what he judged ſufficient, whereupon to ground Mr. <hi>Coleman</hi>'s Commitment; and conceal<g ref="char:EOLhyphen"/>ed what he had farther to ſay, leſt he ſhould by ſaying it, enable Mr. <hi>Coleman</hi> to produce Witneſſes as to the circumſtances of time and place, to diſprove what Mr. <hi>Oates</hi> ſhould ſay againſt him, or to the like effect.</p>
+            <p>Add to all this, that which Mr. <hi>Oates</hi> anſwered at my Tryal, when interrogated by me, (and to my beſt remembrance <hi>Bedloe</hi> gave the like anſwer to the ſame queſtion) what Gratification or Reward he had received, for his pretended Diſcovery of this by him pre<g ref="char:EOLhyphen"/>tended Plot, and for giving Evidence againſt ſuch as had been Tryed thereupon; and particularly, whether he had not received the Sum of 500 <hi>l.</hi> and did not expect to receive a farther Gratification for his farther Services therein? He boldly anſwered, That he was ſo far from having received any ſuch Sum, or any Reward for his ſaid Services, that he was out of Purſe 750 <hi>l.</hi> of his own Monies, in the proſecution of the ſame. Which, how great an Untruth that is, I refer to His Majeſty, and thoſe who manage His Majeſties Mo<g ref="char:EOLhyphen"/>nies and Treaſury; and to all who knew the moſt extream Poverty of theſe two Perſons, <hi>Oates</hi> and <hi>Bedloe,</hi> before they relieved their Wants, and found the way to ſupply their Ne<g ref="char:EOLhyphen"/>ceſſities, by charging thoſe Perſons with Treaſon who have been Executed, or remain ſtill Priſoners upon their Accuſations.</p>
+            <pb n="7" facs="tcp:99718:5"/>
+            <p>After Judgment was given againſt me, upon the Verdict found upon the Evidence of theſe two Men, there were two Perſons came to me to the Gaol, as ſent by the Earl of <hi>Shafteſ<g ref="char:EOLhyphen"/>bury,</hi> or his Order, to propoſe ſomething to me in Charity, for the ſaving of my Life. The firſt thing by them propoſed to be done by me for that end, was a Diſcovery to be made by me of the Plot and Treaſon for which I ſtood Condemned. But when I had ſatisfied them ſo far, as to my Solemn Proteſtations made in the Preſence of God, were of force to ſatisfie them touching my Innocency, and my total Ignorance of any Plot or Treaſon ever at any time deſign<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d againſt His Majeſty, other than the late Unparallel'd Treaſon and Re<g ref="char:EOLunhyphen"/>bellion, which was before His Majeſties Happy Reſtauration. They were pleaſed to pro<g ref="char:EOLhyphen"/>poſe farther, That it was well known, that I had been made uſe of as a Councel for the Jeſuits, and in that Capacity could not but know what Eſtates they had in <hi>England,</hi> or at leaſt a very great part of thoſe Eſtates; and that if I would freely make a Diſcovery of ſuch Eſtates of that nature as ſhould be of a conſiderable value, I ſhould thereby obtain my Pardon; the granting of which, upon ſuch Diſcovery, might be well juſtified to the Parlia<g ref="char:EOLhyphen"/>ment at their next Meeting.</p>
+            <p>Having well weighed this latter Propoſal, and conſidered, That it would be a Sin againſt Truth, to deny that I had knowledge of ſuch Eſtates; and that all the Scandal which could be taken by my Diſcovery of them, could not be ſo great, as my Denial would be offenſive to God. And having no Doubt, but that my frank and ſincere diſcovering and owning what was within my knowledge, though to the Diſpleaſure of thoſe who were to be con<g ref="char:EOLhyphen"/>cerned therein, would make it evident to all Honeſt and Judicious perſons, That in caſe I knew any of the Plot, or of any Treaſon intended againſt His Majeſty, (the concealment of which by me would be a Sin unto Damnation) I would without Difficulty diſcover the ſame, for the ſaving of my Soul, as well as of my Life, ſince I was ready to make a Diſco<g ref="char:EOLhyphen"/>very of ſuch Eſtates, the concealment of which could be no Sin againſt God or the King. I freely engaged my ſelf to Diſcover all that I knew touching ſuch Eſtates, for the Service of His Majeſty; and the Perſons by whom the ſame was ſo propoſed, went from me, with a reſolution, to report my ready compliance therein unto his ſaid Lordſhip.</p>
+            <p>After this, I did by ſome Friends prevail to have a Report made to His Majeſty, of what had paſſed between thoſe two Perſons and me, with which His Majeſty ſeemed (as I was informed) to be well ſatisfied, and directed, That I ſhould ſend unto, and intruſt His Majeſty with ſo much as I could remember (without having reſort to Writings) of thoſe Eſtates, which I with all readineſs did: And I took that Command from His Majeſty, to be an evi<g ref="char:EOLhyphen"/>dent implied promiſe of a Pardon, for the ſecuring of my Life. This Engagement of mine, to make this Diſcovery, occaſioned a Reprieve to be granted me for ſome dayes; but after the ſaid Reprieve granted, my Lord of <hi>Shaftesbury</hi> was pleaſed to intimate unto me by one of the aforeſaid Perſons, by whom it was firſt propoſed unto me to make ſuch Diſcovery, That no Pardon ſhould be granted to me, without a full Diſcovery made by me of the Plot. And his Lordſhip was alſo pleaſed to come to Captain <hi>Richardſon</hi>'s houſe, and ſend<g ref="char:EOLhyphen"/>ing for me thither, to tell me to this effect, <hi>viz.</hi> That as my Parts and Reputation in the World had made me fit for Employment, ſo I might reſt ſecure, That in caſe I would make a full Diſcovery of the Plot, I ſhould be put into as good a Poſt, both as to Honour as Eſtate, as my own Heart could wiſh; but if I failed to do that, no Diſcovery of Eſtates could or ſhould procure my Pardon. I laboured, what I could, by Solemn Proteſtations to ſatisfie his Lord<g ref="char:EOLhyphen"/>ſhip of my Innocency, and my total Ignorance of any Plot or Treaſon whatſoever; and this I did ſo fully, (as I conceived) That in caſe Almighty God ſhould have ſo far with<g ref="char:EOLhyphen"/>drawn his Grace from me, as to leave me to a Reprobate Senſe, and to permit againſt truth, to have pretended a knowledge of a Plot, to the prejudice of any perſon, meerly for the ſa<g ref="char:EOLhyphen"/>ving of my own poor Life, and the obtaining thoſe advantages with which I was tempted, I ought not in any meaſure to have been believed. But bleſſed be my God, who hath by his Grace ſo far ſtrengthned, as to enable me rather to chooſe and loſe my Life in Innocen<g ref="char:EOLhyphen"/>cy, and ſave my Soul, than by Falſities to loſe my Soul, and become Guilty of the Blood of others, againſt whom I could not with Truth teſtifie any thing of any Crime.</p>
+            <p>After his ſaid Lordſhip had given me the Temptation before mentioned, I had ſeveral Per<g ref="char:EOLhyphen"/>ſons applied to me, with Diſcourſes tending wholly to make me deſpair of Pardon, unleſs I would diſcover a Plot; and to perſuade me, that it was not Honourable nor Honeſt for me
+<pb n="8" facs="tcp:99718:6"/>to diſcover any Eſtates, which His Majeſty might ſeize on, in caſe I did not know, That the Owners of the ſaid Eſtates were Traytors. But I took all theſe Diſcourſes to ſignifie no more than a Repentance, for having propoſed to me to make a Diſcovery of Eſtates: And therefore having ſent ſuch Diſcovery unto His Majeſty, as I was able to make upon my Memory; I laboured by my Friends, and did obtain a farther Reprieve, together with an Order, requiring to ſend into the Council by a day limited, ſuch Diſcovery as I could make; and a Licence to have all my Writings and Papers in my Chamber peruſed by ſuch as I nominated, and according to ſuch Direction as I ſhould give, for the better enabling me to perfect ſuch Diſcovery. This was conceived by me, and my Friends, to be intended by His Majeſty, as an Aſſurance of a Pardon, it being to engage the whole Council, as His Ma<g ref="char:EOLhyphen"/>jeſty was pleaſed to engage Himſelf before, when He Commanded me to truſt Him; and it ſeemed evident, that this Diſcovery required, muſt be a Diſcovery of Eſtates, otherwiſe the peruſal of Papers and Writings had been to no purpoſe.</p>
+            <p>In Obedience to the ſaid laſt mentioned Command, I applied with all Diligence to com<g ref="char:EOLhyphen"/>pleat my Diſcovery, my Papers and Writings were examined by my Friends, and my Diſco<g ref="char:EOLhyphen"/>very was perfected, and delivered in unto the Council, at the preciſe day for that purpoſe limited, and it amounted to the value (as I computed the ſame) of between Twenty and thirty thouſand Pounds <hi>Sterling,</hi> and was annexed to a Petition, wherein I declared my In<g ref="char:EOLhyphen"/>nocency and Ignorance of any Treaſon or Plot, and my ſincere dealing as to my ſaid Diſco<g ref="char:EOLhyphen"/>very; and oftered to ſubmit my ſelf to be examined upon Interrogatories upon Oath, or to undergo any Tryal of any Teſt, for the giving ſatisfaction, that the Diſcovery then by me made was complete, and that I knew of no other Lands belonging in any wayes to the Jeſuits, other than what I had then and there Diſcovered; and likewiſe for the purging of my ſelf touching any other matter, upon which it ſhould be thought fit to Examine me. And in my ſaid Diſcovery, I expreſſed every thing with ſuch certainty as to the Names of the Eſtates, and the Places where they lay, and the Values (ſo far as I was able to give the ſame) and the Perſons (ſo far as I knew) concerned therein, that it was eaſie to ſeize the ſame immediately for the uſe of His Majeſty: So that I thereby did all that was in my power, in order to my giving a perfect Obedience to the ſaid Commands of His Majeſty, and to what was thereby required from me. And my Friends, as well as my ſelf, had no Doubt, but that as Almighty God requires no more from us, for the obtaining his pardon of our Sins, and the ſalvation of our Souls, than what His Divine Majeſty knows to be poſ<g ref="char:EOLhyphen"/>ſible for us to do on our parts; ſo the King's Majeſty, and His Council, would require no more from me, for the ſaving of my poor Life, and the obtaining of my Pardon, than what was poſſible for me on my part to do. I alſo looked upon the Publick Honour and Faith to be now firmly engaged for the ſecurity of my Life, and the granting of a Pardon to me, I having fully performed my part, of that which was the Condition. And it being clear, that when once my Diſcovery was delivered in, and read in Council, it ceaſed to be a Se<g ref="char:EOLhyphen"/>cret, and that nothing therein contained, could afterwards remain as a thing undiſcovered. It was likewiſe evident that by this Act I had done (as I believed) more than any other ſingle perſon now living, who is meerly a Lay-man, could do for the Service of His Majeſty. And that if there were any ſuch Plot, as is affirmed by <hi>Oates</hi> and <hi>Bedloe,</hi> and that any per<g ref="char:EOLhyphen"/>ſon now charged therewith, had knowledge thereof, and ſhould be required, as I had been, to diſcover what he knows for the ſaving of his Life, he would hardly be induced to make ſuch Diſcovery, in caſe my Life ſhould be taken away, after my ſo free Diſcovery of all that was within my knowledge to be diſcovered, was in obedience to ſo great a Command deli<g ref="char:EOLhyphen"/>livered out of my hands. However I reſted ſatisfied, That in caſe my Life ſhould be taken away for the Crime for which I ſtand Condemned, and after my Obedience given to His Majeſties Commands, in making the ſaid Diſcovery, I ſhould dye with this great comfort, That I ſhould have a double Martyrdom. Firſt, as dying perfectly Innocent of the Crime for which I ſhould loſe my Life. And ſecondly, as chooſing rather to dye, than to ſin againſt my God, and my Neighbor, by charging others falſly, and becoming guilty of their Blood, and of the Ruine of their Families, by accuſing them of a Crime, of which my own Conſcience muſt bear me witneſs, that I did never know them, or any of them Guilty; but on the contrary, believe them to be perfectly Innocent. <hi>Whereas</hi> if I had on the other ſide denied my ſelf to have known any thing of thoſe Eſtates, which I was required to diſ<g ref="char:EOLhyphen"/>cover,
+<pb n="9" facs="tcp:99718:6"/>I muſt have ſinned againſt the God of Truth, by affirming a Lye. And if Confeſ<g ref="char:EOLhyphen"/>ſing, That I had knowledge of ſuch Eſtates, I ſhould rather have choſen to dye, than to have made a Diſcovery of ſuch my knowledge for the ſaving of my Life, I ſhould have ap<g ref="char:EOLhyphen"/>peared (in ſome ſort at leaſt) guilty of my own Blood, through my obſtinacy.</p>
+            <p>Upon the delivering of this Diſcovery, and the reading of it in the Council, the Lord Viſcount <hi>Hallifax</hi> produced a Letter written to him (as his Lordſhip affirmed) from the Earl of <hi>Roſcommon</hi> from <hi>Bruxels,</hi> in which Letter the ſaid Earl taking notice, that he had heard of my being Reprieved, affirmed himſelf to be much ſatisfied, That my Life ſhould be ſaved; and gave this Reaſon, That my Life might be uſeful to the Publick, or to the like effect. Theſe words were taken to my great Diſadvantage, and to import, as if the Earl of <hi>Roſcommon</hi> did know, That I was able to make a Diſcovery of the Plot. And though the words might well bear a more kind ſenſe, and did not, without forcing, ſo much as in<g ref="char:EOLhyphen"/>cline to that unkind Interpretation; yet upon the reading of that Letter, my Diſcovery was rejected, after having been Publickly read, and ordered to be ſent unto me by a Clark of the Council, and notice to be given to me, That by an Order of Council, I was Reprieved onely until the 14th day of <hi>July;</hi> and that if before that day I did not make a Diſcovery of the Plot, I was to expect no farther mercy.</p>
+            <p>My Friends were more aſtoniſhed at this Order than my ſelf was, and being now in this condition, I preſumed yet once more, to addreſs a Petition, in which I prayed, That my Life might be ſaved, though to be ſpent in Baniſhment; and to the end that I might do all that in me lay, to expreſs and declare my Innocency, I did, to that Petition, annex this follow<g ref="char:EOLhyphen"/>ing Declaration, and Proteſtation, <hi>viz.</hi>
+            </p>
+            <q>
+               <floatingText xml:lang="eng">
+                  <body>
+                     <div type="petition">
+                        <p>I <hi>Do Solemnly and Sincerely, in the Preſence of Almighty God, Profeſs, Teſtifie, and Declare, as followeth:</hi> That is to ſay,</p>
+                        <list>
+                           <item>I. <hi>That I do believe, and own my my Moſt Gracious Sovereign Lord the King's Majeſty, King</hi> CHARLES II. <hi>to be my True and Lawful Sovereign King, in the ſame Senſe and Latitude, to all Intents and Purpoſes, as in the Oath commonly called,</hi> The Oath of Allegiance, <hi>His ſaid Majeſty is expreſſed to be King of this Realm of</hi> England.</item>
+                           <item>II. <hi>That I do in my Soul believe, That neither the Pope, nor any Prince, Potentate, or Foreign Authority, nor the People of</hi> England, <hi>nor any Authority out of this King<g ref="char:EOLhyphen"/>dom, or within the ſame, hath or have any Right to diſpoſſeſs His ſaid Majeſty of the Crown and Government of</hi> England, <hi>or to Depoſe Him therefrom, for any Cauſe, or pretended Cauſe whatſoever; Or to give Licence to me, or to any other of His Ma<g ref="char:EOLhyphen"/>jeſties Subjects whatſoever, to bear Arms againſt His Majeſty, or to take away His Life, or to do Him any Bodily Harm; Or to diſturb the Government of this King<g ref="char:EOLhyphen"/>dom, as it is now Eſtabliſhed by Law; Or to Alter, or go about to Alter the ſaid Go<g ref="char:EOLhyphen"/>vernment, or the Religion now Eſtabliſhed in</hi> England, <hi>by any way of Force.</hi>
+                           </item>
+                           <item>III. <hi>That I neither am, nor ever was at any time Guilty, ſo much as in my moſt ſecret Thoughts, of any Treaſon, or Miſpriſion of Treaſon whatſoever.</hi>
+                           </item>
+                           <item>IV. <hi>That I do Believe, That if I did know, or ſhould know of any Treaſon, or Treaſonable Deſign that was, or is intended, or ſhould be intended againſt His ſaid Majeſty, or the Government of this His Majeſties Kingdom, or for the Alteration by Force, Ad<g ref="char:EOLhyphen"/>vice, or otherwiſe, of the ſaid Government, or of the Religion now Eſtabliſhed in this Kingdom, and ſhould conceal, and not diſcover the ſame unto His ſaid Majeſty, or His Majeſties Council or Miniſters, or ſome of them, That ſuch Concealment would be to me a Sin unto Death, and Eternal Damnation.</hi>
+                           </item>
+                           <pb n="10" facs="tcp:99718:7"/>
+                           <item>
+                              <hi>And I do Solemnly, in the Preſence of God, Profeſs, Teſtifie, and Declare, That as I hope for Salvation, or expect any benefit by the Blood and Paſſion of Jeſus Chriſt, I do make this Declaration, and every Part thereof, in the Plain and Ordinary Senſe of the Words, wherein the ſame ſtands written, as they are commonly underſtood by</hi> Engliſh <hi>Proteſtants, and the Courts of Juſtice of</hi> England, <hi>without any Evaſion, or Equivoca<g ref="char:EOLhyphen"/>tion, or Deluſion, or Mental Reſervation whatſoever. And without any Diſpenſation, or Pardon, or Abſolution already granted to me, for this, or any other purpoſe, by the Pope, or any other Authority or Perſon whatſoever, or without any hope of any ſuch Diſpenſation. And without thinking or believing that I am, or can be acquitted be<g ref="char:EOLhyphen"/>fore God or Man, or abſolved of this Declaration, or any part thereof, although the Pope, or any other Perſon or Perſons, or Power whatſoewer, ſhould Diſpenſe with, or Annul the ſame, or Declare that it was, or is Null or Void from the begin<g ref="char:EOLhyphen"/>ning.</hi>
+                           </item>
+                        </list>
+                     </div>
+                  </body>
+               </floatingText>
+            </q>
+            <p>This, with my Petition, was Preſented to His Majeſty in Council on, <hi>Thurſday,</hi> the 10th of <hi>July</hi> inſtant; and after the reading of my Petition, my ſaid Proteſtation and Declaration was (as I am informed) begun to be read, but when the perſon that read the ſame, came to read that part of it, in which I aver my Innocency, he was not (as I am informed) per<g ref="char:EOLhyphen"/>mitted to read farther; and it was declared, That I was to expect no farther mercy, unleſs I would make a Diſcovery of the Plot, which (God is my Witneſs) I cannot do, becauſe I know nothing of it directly or indirectly.</p>
+            <p>And now having related all the particular Circumſtances of my Caſe, ſo far as my memo<g ref="char:EOLhyphen"/>ry can recollect them; and made ſuch Proteſtations and Declarations as is before men<g ref="char:EOLhyphen"/>tioned, I ſhall only recommend to be conſidered by all impartial Judgments, thoſe ſolemn and ſerious Proteſtations which were made by thoſe others, who have loſt their Lives already upon the Evidence given againſt them, by the ſame Mr. <hi>Oates</hi> and Mr. <hi>Bedloe,</hi> and pray that it may be duely weighed, Whether the Solemn Oaths and Proteſtations of ſober Men, made by them immediately before their reſpective Deaths, and this Proteſtation of mine before mentioned, made at a time, when my Confeſſion and Diſcovery of a Plot or Treaſon againſt my King (in caſe I had been privy unto, or known ſuch Plot or Treaſon) would not only have ſaved my Life, and ſecured me of a Pardon; but would alſo have en<g ref="char:EOLhyphen"/>tituled me unto, and (in all probability) put me into the full poſſeſſion of Preferments and Advantages, greater than I ever (I thank my God) coveted; Be not more conſide<g ref="char:EOLhyphen"/>rable to move a Belief of my Innocency, than the Evidence given againſt me by my Accu<g ref="char:EOLhyphen"/>ſers before-mentioned, to move a Belief of my Guilt? It is ſaid, it is not upon the bare Oaths of thoſe two Witneſſes, but upon the Verdict of the Twelve Jurors, that I am found Guilty. I am ſure that every judicious Perſon, who underſtands our Proceedings in our Law of <hi>England,</hi> in all Caſes of this Nature, doth know, and can anſwer, That the Verdict of the Twelve Jurors is grounded wholly upon the Evidence given by the Witneſſes. The Jurors Belief of the Witneſſes produced and ſworn to give Evidence againſt me, was the foundation of their Verdict, and juſtifies them in Law; and the Verdict given by the Jurors, doth in Law juſtifie the Judgment given by the Judges, for the taking away of my Belief. And I beſeech God that the ſame Rule of Law, may, at the great and terrible day of Judg<g ref="char:EOLhyphen"/>ment, acquit as well the Jurors, who gave that Verdict, as the Judges, who gave that Judg<g ref="char:EOLhyphen"/>ment, from all Guilt of my Blood. But I muſt again refer it to the Conſciences of all un<g ref="char:EOLhyphen"/>byaſſed, judicious, and good Men, whether in Chriſtian Charity, the motives of Credibili<g ref="char:EOLhyphen"/>ty founded upon ſuch Judgment, the Verdict, which was ſolely grounded upon the Evidence of Mr. <hi>Oates</hi> and Mr. <hi>Bedloe,</hi> be of greater force to a good and charitable Conſcience to pronounce me Guilty, than the ſeveral other motives which I have here repreſented, will be found to pronounce me Innocent?</p>
+            <p>It will no way concern me as to my own particular, whether the world ſhall adjudge me Innocent, or not; it is ſufficient for me, That my Conſcience doth with great Joy and
+<pb n="11" facs="tcp:99718:7"/>Peace acquit me. And that the God of all Truth, my deareſt Jeſus, who is Truth it ſelf, doth know me to be Innocent. And that the Conſciences of thoſe moſt Unhappy Men, Mr. <hi>Oates</hi> and Mr. <hi>Bedloe,</hi> will at the laſt day, when the ſecrets of all hearts ſhall be made manifeſt, be compelled, to the Glory of God, and their own ſhame, To proclaim me Inno<g ref="char:EOLhyphen"/>cent. I beſeech Almighty God to give thoſe miſerable Men a true and ſincere Repentance for the Sin which they have committed, and by which they have drawn upon themſelves, the Guilt of my Innocent Blood.</p>
+            <p>I do here profeſs my ſelf to dye a Member of the Holy Catholique and Apoſtolique Church, of which, the Biſhop of <hi>Rome</hi> is the Supreme Viſible Head of Government on Earth, as the Succeſſor of the Holy Apoſtle St. <hi>Peter.</hi> And of which Church our bleſſed Lord Jeſus is the Supreme, Inviſible Head, of influence to Guide, Govern, and direct the ſame by his Holy Spirit. And I do take my Religion to be the ſole Cauſe of my being the Object of the Malice of my Enemies, who are the Cauſers of my Death.</p>
+            <p>If what I here ſay be any wayes disbelieved becauſe of my Religion, I humbly recom<g ref="char:EOLhyphen"/>mend it to the conſideratioin of ſober Men, whether ſuch disbelief upon this ground, be not,</p>
+            <list>
+               <item>1. To caſt a Reproach and Blemiſh upon the Honour and Reputation of all our moſt Pi<g ref="char:EOLhyphen"/>ous Anceſtors, and our whole Nation, who lived and dyed before the 20th Year of King <hi>Henry</hi> VIII. and who did all live and dye in the ſame Faith, and Members of the ſame Church, of which by God's Grace I am now a Member, though unworthy.</item>
+               <item>2. To caſt a like Reproach upon all the Princes, States and People of the World, who are Members of the ſame Church.</item>
+               <item>3. To give a juſt Occaſion to the ſame Princes, States and People, never to give Credit to any thing affirmed or ſworn by any <hi>Engliſh</hi> Proteſtant; and conſequently,</item>
+               <item>4. To lay a Foundation for the total deſtroying of all Trade, as well as Converſation, with all thoſe Princes, States and People.</item>
+            </list>
+            <p>We muſt learn to do unto others, as we would have others do unto us. And it is not a good Anſwer to ſay, That this Disbelief is only in relation to the Jeſuits, and thoſe who make uſe of them: For there is ſcarce any Prince of this Religion now living, who doth not make uſe of a Jeſuit for his Ghoſtly Father; which will likewiſe be a clear Evidence, That thoſe Princes (known to all the World not to be Fools or Mad-men) have not an Opinion, That the Doctrines and Principles of the Jeſuits, are any wayes Pernicious and Dangerous to Government, as the Pulpits of <hi>England</hi> repute them to be. And certainly if an <hi>Engliſh</hi> Proteſtant ſhould in <hi>France,</hi> caſt the two Execrable Murthers of thoſe two Kings of that Kingdom, who were killed by <hi>Clement</hi> and <hi>Ravillack,</hi> upon the Jeſuits, or as an ef<g ref="char:EOLhyphen"/>fect of any Doctrine of our Church, That Church, and that Order, would with much greater eaſe clear themſelves from ſuch a Reproach, than our <hi>Engliſh</hi> Proteſtants could clear themſelves, in caſe the Murther of Queen <hi>Mary</hi> of <hi>Scotland</hi> (our King's Great Grand-Mother) or of our laſt moſt excellent Prince King <hi>CHARLES</hi> I. ſhould be caſt as a Reproach upon the Doctrines of the Proteſtant Church of <hi>England,</hi> or of any other Party profeſſing Proteſtancy, theſe Murthers being committed under the Solemn <hi>Species</hi> and Formalities of Publick Juſtice; when it is well known, That <hi>Clement</hi> and <hi>Ravillack</hi> were only two private Villains, who were diſowned by all the World. Nor do there want Au<g ref="char:EOLhyphen"/>thors, who call themſelves, and are reputed to be Proteſtants, who, in their Publick Wri<g ref="char:EOLhyphen"/>tings, juſtifie theſe two Murthers, of Queen <hi>Mary,</hi> and King <hi>Charles</hi> I. Nay, there may, peradventure, be found more Authors, reputed Proteſtants, who juſtifie the People to have a Power to Depoſe, and take away the Lives of Kings, than there are found Authors, re<g ref="char:EOLhyphen"/>puted to be Catholicks, who aſſert the Pope to have Power to Depoſe Princes. Yet, God
+<pb n="12" facs="tcp:99718:8"/>ſorbid, That I ſhould call theſe Poſitions, or Opinions, the Doctrines of the Church of <hi>England;</hi> I impure theſe Actions, to the Paſſions of wicked and ambitious Men; and thoſe Doctrines, to thoſe onely, who write or own them; and certainly the ſame Charity can<g ref="char:EOLhyphen"/>not, without Sin, be denied to us, by all ſober Judgments. But if this Juſtice be denied unto me, and thoſe of my Religion, I beſeech God to pardon ſuch as are ſo uncharitable; And I do moſt heartily, and from my Soul, forgive thoſe who want this Charity, as I do the before named Mr. <hi>Oates</hi> and Mr. <hi>Bedloe,</hi> and all others, who are any wayes guilty of my Death, or of my not obtaining my Pardon, or of rejoycing at the ſhedding of my Inno<g ref="char:EOLhyphen"/>cent Blood; and all who have done me any Injury whatſoever, <hi>SWEET JES<g ref="char:V">Ʋ</g>S Forgive Them, They know not what they do.</hi>
+            </p>
+            <closer>
+               <dateline>
+                  <date>
+                     <hi>July</hi> 12. 1679.</date>
+               </dateline>
+               <signed>Richard Langhorne.</signed>
+            </closer>
+         </div>
+         <div type="poem">
+            <pb n="13" facs="tcp:99718:8"/>
+            <head>The Affections of my SOUL, after Judg<g ref="char:EOLhyphen"/>ment given againſt me in a Court of Juſtice, upon the Evidence of Falſe Witneſſes.</head>
+            <lg>
+               <head>I.</head>
+               <l>IT is told me I muſt Dye</l>
+               <l>Ignominiouſly,</l>
+               <l>By the Hand of the Executioner:</l>
+               <l>O Happy News!</l>
+               <l>I ſee my ſelf honored with the Livery of Jeſus,</l>
+               <l>I receive the Judgment of Death</l>
+               <l>As an Enemy to <hi>Caeſar,</hi>
+               </l>
+               <l>As Deſigning the Death of my King,</l>
+               <l>And the Depriving Him of</l>
+               <l>His Crown,</l>
+               <l>His Government.</l>
+               <l>Whilſt in the mean time</l>
+               <l>My Jeſus knows,</l>
+               <l>My Conſcience rejoycing teſtifies,</l>
+               <l>That I never yet harboured</l>
+               <l>In my heart at any time,</l>
+               <l>So much as one Diſloyal Thought</l>
+               <l>Againſt my King and Sovereign.</l>
+               <l>And the Conſciences</l>
+               <l>Of my Accuſers muſt Teſtifie</l>
+               <l>At the laſt and dreadful Judgment,</l>
+               <l>To the Glory of my God.</l>
+               <l>And the Juſtification of Truth,</l>
+               <l>That I am perfectly Innocent</l>
+               <l>Of all and every the Crimes,</l>
+               <l>Of which they ſwore me Guilty.</l>
+            </lg>
+            <lg>
+               <head>II.</head>
+               <l>IT is told me I muſt Dye</l>
+               <l>A Death of Diſhonour in the</l>
+               <l>Vain Opinion of the World,</l>
+               <l>O Happy News!</l>
+               <l>My Jeſus calls me by this Sentence,</l>
+               <l>To bear his Croſs, and follow him.</l>
+               <l>The Judge declares my Death neceſſary</l>
+               <l>For the King, and for His People;</l>
+               <l>The People ſhout and cry out,</l>
+               <l>Crucifie, Crucifie.</l>
+               <l>He who was perfect Innocency,</l>
+               <l>Hath ſet before me his Example,</l>
+               <l>He opened not his mouth,</l>
+               <l>He juſtified not himſelf,</l>
+               <l>He forgave, and prayed for his Enemies.</l>
+               <l>O what Happineſs</l>
+               <l>To be dignified with ſo many Circumſtances</l>
+               <l>Of the Death of Jeſus!</l>
+            </lg>
+            <lg>
+               <head>III.</head>
+               <l>IT is told me I muſt Dye,</l>
+               <l>O ſweet and happy News!</l>
+               <l>Rejoyce, O my Soul,</l>
+               <l>For thou haſt no cauſe for Fear,</l>
+               <l>Thy Jeſus hath dyed for thee;</l>
+               <l>He hath paid a Ranſom for thee;</l>
+               <l>He hath bought thee with his Life;</l>
+               <l>He hath ſatisfied for thy Sins;</l>
+               <l>He hath purchaſed Paradiſe for thee;</l>
+               <l>He hath adopted thee his Brother;</l>
+               <l>He hath adopted thee the Son of his Father;</l>
+               <l>He hath cleanſed thee by his Blood;</l>
+               <l>He hath given thee his Body for thy ſecurity;</l>
+               <l>
+                  <g ref="char:V">Ʋ</g>pon his Croſs he declared thee Son of his Mother;</l>
+               <l>And he now gives thee his Croſs to bear,</l>
+               <l>As an evidence that thou art one of his.</l>
+            </lg>
+            <lg>
+               <head>IV.</head>
+               <l>IT is told me I muſt Dye,</l>
+               <l>O Happy News!</l>
+               <l>Be glad, O my Soul,</l>
+               <l>And rejoyce in Jeſus thy Saviour.</l>
+               <l>If he intended thy Perdition,</l>
+               <l>Would he have laid down his Life for thee?</l>
+               <l>Would he have expected thee with ſo much Patience,</l>
+               <l>And given thee ſo long a time for Pennance?</l>
+               <l>Would he have called thee with ſo much Love,</l>
+               <l>And illuminated thee with the Lights of his Spirit?</l>
+               <l>Would he have drawn thee with ſo great force,</l>
+               <l>And favoured thee with ſo many Graces?</l>
+               <l>Would he have given thee ſo many good deſires?</l>
+               <l>Would he have ſet the Seal of the Predeſtinate upon thee,</l>
+               <l>And dreſſed thee in his own Livery?</l>
+               <l>Would he have given thee his own Croſs,</l>
+               <l>And given thee ſhoulders to bear it with Patience?</l>
+            </lg>
+            <pb n="14" facs="tcp:99718:9"/>
+            <lg>
+               <head>V.</head>
+               <l>IT is told me I muſt Dye,</l>
+               <l>O Happy News!</l>
+               <l>Come on, my deareſt Soul,</l>
+               <l>Behold thy Jeſus calls thee,</l>
+               <l>He prayed for thee upon his Croſs,</l>
+               <l>There he extended his Arms to receive thee;</l>
+               <l>There he bowed down his head to kiſs thee;</l>
+               <l>There he cryed out with a powerful voice,</l>
+               <l>Father receive him, he is mine;</l>
+               <l>There he opened his Heart to give thee entrance;</l>
+               <l>There he gave up his Life, to purchaſe life for thee.</l>
+            </lg>
+            <lg>
+               <head>VI.</head>
+               <l>IT is told me I muſt Dye,</l>
+               <l>O Bleſſed News!</l>
+               <l>I muſt quit</l>
+               <l>Earth for Heaven,</l>
+               <l>My earthly Priſon for a liberty of joy;</l>
+               <l>My Baniſhment for my Countrey prepared for me.</l>
+               <l>I muſt paſs</l>
+               <l>From Time, to Eternity;</l>
+               <l>From Miſery, to Felicity;</l>
+               <l>From Change, to Immutability;</l>
+               <l>From Death, to Immortality.</l>
+               <l>I muſt leave what I poſſeſs on earth,</l>
+               <l>To poſſeſs my God;</l>
+               <l>To enjoy my Jeſus;</l>
+               <l>To converſe with Angels and Saints.</l>
+               <l>I muſt go to fill</l>
+               <l>My Spirit with a plenitude of light;</l>
+               <l>My Will with a fulneſs of peace;</l>
+               <l>My Memory with a collection of all good;</l>
+               <l>My ſenſes with a ſatiety of pleaſures.</l>
+               <l>I muſt go where I ſhall find</l>
+               <l>All things which I can deſire,</l>
+               <l>Nothing that I can fear.</l>
+               <l>I ſhall no more want any good,</l>
+               <l>God ſhall be unto me all in all,</l>
+               <l>And my All to all Eternity.</l>
+            </lg>
+            <lg>
+               <head>VII.</head>
+               <l>IT is told me I muſt Dye,</l>
+               <l>O Happy News!</l>
+               <l>I ſhall be freed from Miſery;</l>
+               <l>I ſhall no more ſuffer Pain;</l>
+               <l>I ſhall no more be ſubject to Sin;</l>
+               <l>I ſhall no more be in danger of being damned.</l>
+               <l>But from henceforth</l>
+               <l>I ſhall ſee, and I ſhall live;</l>
+               <l>I ſhall praiſe, and I ſhall bleſs;</l>
+               <l>And this I ſhall alwayes do,</l>
+               <l>Without ever being weary</l>
+               <l>Of doing what I alwayes am to do.</l>
+            </lg>
+            <lg>
+               <head>VIII.</head>
+               <l>IT is told me I muſt Dye,</l>
+               <l>O what Happineſs!</l>
+               <l>I am going</l>
+               <l>To the place of my reſt;</l>
+               <l>To the Land of the Living;</l>
+               <l>To the Haven of Security;</l>
+               <l>To the Kingdom of Peace;</l>
+               <l>To the Palace of my God;</l>
+               <l>To the Nuptials of the Lamb;</l>
+               <l>To ſit at the Table of my King;</l>
+               <l>To feed on the Bread of Angels;</l>
+               <l>To ſee what no Eye hath ſeen;</l>
+               <l>To hear what no Ear hath heard;</l>
+               <l>To enjoy what the heart of man cannot com<g ref="char:EOLunhyphen"/>prehend.</l>
+            </lg>
+            <lg>
+               <head>IX.</head>
+               <l>IT is told me I muſt Dye,</l>
+               <l>O News of Joy!</l>
+               <l>Let us go, my Soul, I am content,</l>
+               <l>I joyfully renounce this Life,</l>
+               <l>And render it back to him that gave it me;</l>
+               <l>I remit my Spirit into his hands;</l>
+               <l>I recommend my Soul and Body to my Jeſus;</l>
+               <l>I accept this Death moſt willingly,</l>
+               <l>And offer it with the Merits of Jeſus,</l>
+               <l>As a ſatisfaction for my many Sins.</l>
+               <l>I believe every thing that he hath revealed;</l>
+               <l>I hope for every thing that he hath promiſed;</l>
+               <l>I acknowledge and know my own nothingneſs;</l>
+               <l>I give him all that I can call my own;</l>
+               <l>I am willing to Dye</l>
+               <l>For his Glory,</l>
+               <l>For his Love,</l>
+               <l>Out of Gratitude for his Favors,</l>
+               <l>And to ſatisfie his Juſtice.</l>
+               <l>I am willing to Dye for him, as he Dyed for me</l>
+               <l>I am willing to Dye,</l>
+               <l>To ſee my Jeſus,</l>
+               <l>To love my Jeſus,</l>
+               <l>To bleſs my Jeſus,</l>
+               <l>And to ſing his Praiſes to all Eternity.</l>
+               <l>Come on, my Soul, let us go and rejoyce,</l>
+               <l>He, who by his Grace, hath enabled thee to know</l>
+               <l>Thy own Miſeries,</l>
+               <l>And his Mercies</l>
+               <pb n="15" facs="tcp:99718:9"/>
+               <l>He who hath enabled thee to Deteſt thy ſelf,</l>
+               <l>And to relie on him,</l>
+               <l>Commands thee to ſhake off all Fear;</l>
+               <l>It is not for any thing in thee,</l>
+               <l>That he enables thee to theſe Acts,</l>
+               <l>Or that he loves thee, and will ſave thee;</l>
+               <l>He doth it becauſe he is God,</l>
+               <l>Perfect Love, and perfect Goodneſs.</l>
+            </lg>
+            <lg>
+               <head>X.</head>
+               <l>O Father of Mercy,</l>
+               <l>Behold thy Child, who hath been a Prodi<g ref="char:EOLhyphen"/>gal;</l>
+               <l>Who, having waſted all his Goods,</l>
+               <l>And ſpent his time in Vanity,</l>
+               <l>Drawn by thy Grace and Love,</l>
+               <l>Is now returning to thy houſe,</l>
+               <l>And humbly begs for Pardon at thy hands. Alas!</l>
+               <l>I have lived as without reaſon,</l>
+               <l>Since firſt I had the uſe of reaſon;</l>
+               <l>I have done nothing of my ſelf but evil,</l>
+               <l>From the time that I firſt knew what Good was,</l>
+               <l>I have ſinned againſt Heaven, and againſt thee,</l>
+               <l>I deſerve not the Title of thy Son,</l>
+               <l>Or to have admittance into thy houſe.</l>
+               <l>And though I am wholly Innocent</l>
+               <l>Of the Crime for which I am ſentenced now to Dye,</l>
+               <l>Yet from thy hands I have deſerved a Death to</l>
+               <l>All Eternity.</l>
+               <l>But thou haſt made me know,</l>
+               <l>That thou canſt not ceaſe to be a Father,</l>
+               <l>For my having often ceaſed to comport my ſelf</l>
+               <l>As thy Child.</l>
+               <l>Thou canſt not loſe thy Goodneſs,</l>
+               <l>By my having often forgotten my Gratitude;</l>
+               <l>Thou canſt not forget to be a Father of Mercy,</l>
+               <l>By my having become a Child of Miſery.</l>
+            </lg>
+            <lg>
+               <head>XI.</head>
+               <l>O my Father,</l>
+               <l>O Thou the beſt of all Fathers,</l>
+               <l>Have pity on the moſt wretched of all thy Children;</l>
+               <l>I was loſt, but by thy Mercy am now found;</l>
+               <l>I was dead, but by thy Grace am now raiſed again;</l>
+               <l>I was gone aſtray after Vanity,</l>
+               <l>But am now ready to appear before thee.</l>
+               <l>O my Father,</l>
+               <l>Come now in mercy and receive thy Child;</l>
+               <l>Give him the Kiſs of Peace;</l>
+               <l>Remit unto him all his Sins;</l>
+               <l>Cloath him with thy Nuptial Robe;</l>
+               <l>Receive him into thy Houſe;</l>
+               <l>Permit him to have a place at thy Feaſt;</l>
+               <l>And forgive all thoſe who are Guilty of his Death.</l>
+            </lg>
+            <lg>
+               <head>XII.</head>
+               <l>O Jeſu,</l>
+               <l>The Comforter of the Afflicted;</l>
+               <l>The Refuge of the Oppreſſed;</l>
+               <l>The Redeemer of the Captives;</l>
+               <l>The Hope of the Diſtreſſed;</l>
+               <l>Behold I addreſs unto thee,</l>
+               <l>Who never driveſt any from thee,</l>
+               <l>Who approach unto thee with Faith, Hope and Love.</l>
+               <l>My Heart tells thee,</l>
+               <l>That it burns with a deſire to ſee thee,</l>
+               <l>And that for that end it is impatient to Dye.</l>
+               <l>Come ſweet Jeſu,</l>
+               <l>Come quickly,</l>
+               <l>Draw my Soul from this Priſon;</l>
+               <l>Recall me from this Paniſhment;</l>
+               <l>Conduct me to my dear Countrey;</l>
+               <l>Behold the Juſt expect me;</l>
+               <l>My Friends reach out their Arms towards me.</l>
+               <l>O how beautiful are thy Tabernacles!</l>
+               <l>O how admirable is thy Palace!</l>
+               <l>O what content ſhall I have with thee!</l>
+               <l>What Happineſs in thy Company!</l>
+               <l>I Dye with a deſire to Dye.</l>
+               <l>Come bleſſed Jeſus,</l>
+               <l>And receive my Spirit,</l>
+               <l>Which languiſheth to be with thee;</l>
+               <l>Into thy hands, O Jeſus,</l>
+               <l>I recommend my Spirit.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <pb n="16" facs="tcp:99718:10"/>
+            <head>Acts of Reſignation, Thankſgiving, FAITH, HOPE, and LOVE.</head>
+            <l>BLeſſed Jeſus, who art the Way, the Truth,</l>
+            <l>And the Life, Behold I do moſt willingly</l>
+            <l>Take up and bear my Croſs, as thou haſt</l>
+            <l>Commanded me, and do give thee moſt humble</l>
+            <l>Thanks, that thou art pleaſed to dignifie</l>
+            <l>My Death with ſo many circumſtances of</l>
+            <l>Thy moſt Sacred Paſſion, as thou art pleaſed</l>
+            <l>To beſtow on it.</l>
+            <l>I firmly believe (O my Jeſus) whatſoever</l>
+            <l>Thou haſt propoſed unto me by thy Holy Catholique</l>
+            <l>And Apoſtolique Church; becauſe thou haſt ſpoken it,</l>
+            <l>Bleſſed be thy Name, that by thy Grace I have</l>
+            <l>Lived in this Faith, and that thou haſt pleaſed</l>
+            <l>To think me worthy to Dye for it.</l>
+            <l>On thee (O my Jeſus) I profeſs wholly and ſolely</l>
+            <l>To relie, and to hope in thee, and in thy Blood</l>
+            <l>With ſo much love ſhed for me, by which I</l>
+            <l>Firmly conſide, That thou wilt ſave me,</l>
+            <l>Though moſt unworthy. I love thee (O my Jeſus)</l>
+            <l>For thy ſelf, and beg that thou wilt increaſe</l>
+            <l>That Love in me; I am ſorry (O my God) from my</l>
+            <l>Heart and Soul, that I have at any time ſinned</l>
+            <l>Againſt thee, and this (as I hope by thy grace) for</l>
+            <l>The Love of thee.</l>
+         </div>
+         <div type="list">
+            <head>Several Acts of my SOUL, upon the laſt words of our bleſſed JESUS.</head>
+            <l>I Do from my heart (O my Jeſus) pardon all my</l>
+            <l>Enemies, and particularly thoſe, upon whoſe falſe</l>
+            <l>And untrue Teſtimonies, I am adjudged to Dye for</l>
+            <l>Crimes, of which thou (my Jeſus knoweſt) and their</l>
+            <l>Conſciences at the dreadful Day of Judgment</l>
+            <l>Muſt teſtifie, that I am wholly innocent, Father</l>
+            <l>Forgive them, they know not what they do.</l>
+            <l>Behold (O my Jeſus) I am now coming unto thee,</l>
+            <l>Confirm it unto my Soul by thy holy Spirit, that</l>
+            <l>This day I ſhall be with thee in Paradiſe.</l>
+            <l>O Lamb of God, who upon thy Croſs didſt adopt me</l>
+            <l>In the perſon of St. <hi>John,</hi> to be the Son of thy</l>
+            <l>Bleſſed Mother, and before whoſe Throne thy Holy</l>
+            <l>Saints now offer the Incenſe of Prayer for thy</l>
+            <l>Servants upon earth, mercifully receive thoſe</l>
+            <l>Prayers which are addreſſed to thee, for me the moſt</l>
+            <l>
+               <g ref="char:V">Ʋ</g>nworthy of thy Creatures.</l>
+            <l>O bleſſed Jeſus, who upon thy Croſs wert pleaſed</l>
+            <l>To ſuffer an Abandonment, to the end I might</l>
+            <l>Not be abandoned by thy Father at my Death.</l>
+            <l>Bleſſed be thy Name, that thou art pleaſed to be now</l>
+            <l>With me by thy Holy Spirit, and not to forſake</l>
+            <l>Me in this great time of Tryal.</l>
+            <l>O my deareſt Jeſus! who upon thy Croſs didſt ſuffer</l>
+            <l>Thirſt, for the perfecting the work of my Re<g ref="char:EOLhyphen"/>demption.</l>
+            <l>Behold I now thirſt to be with thee, bleſſed be</l>
+            <l>Thy Name that thou art pleaſed to give me this Thirſt.</l>
+            <l>O my Jeſus, who upon thy Croſs didſt conſum<g ref="char:EOLhyphen"/>mate</l>
+            <l>Thy life for the love of me, bleſſed be thy</l>
+            <l>Name, that thou permitteſt me to conſummate</l>
+            <l>My life for thee in thy ſervice.</l>
+            <l>O my deareſt Jeſus, into thy hands I commend my Spirit.</l>
+         </div>
+         <div type="list">
+            <head>The ſeveral Circumſtances of the Paſſion of our Lord, Accompanying my Death, by which he vouchſafes to grace me, a poor Sinner, and to refreſh my memory, in relation to his bleſſed Merits.</head>
+            <list>
+               <item>
+                  <hi>1.</hi> To be Judged by a P<g ref="char:V">Ʋ</g>BLICK SEN<g ref="char:EOLhyphen"/>TENCE.</item>
+               <item>
+                  <hi>2.</hi> To Dye the moſt Ignominious of all Deaths.</item>
+               <item>
+                  <hi>3.</hi> By the Hands of the Publick Execu<g ref="char:EOLhyphen"/>tioner</item>
+               <item>
+                  <hi>4.</hi> As an Enemy to <hi>Caeſar</hi> and the Govern<g ref="char:EOLhyphen"/>ment.</item>
+               <item>
+                  <hi>5.</hi> To Dye Hanging on a Tree.</item>
+               <item>
+                  <hi>6.</hi> To be ſtript of all my Cloaths.</item>
+               <item>
+                  <hi>7.</hi> To have all my Blood entirely ſhed, by Embowelling and Quartering.</item>
+               <item>
+                  <hi>8.</hi> With a publick declaring my Death to be Neceſſary for the People.</item>
+               <item>
+                  <hi>9.</hi> The multitude ſhouting, Crucify, Crucify.</item>
+               <item>
+                  <hi>10.</hi> The People rejoycing at this Sentence and Death</item>
+               <item>
+                  <hi>11.</hi> Occaſioned by Falſe Witneſſes.</item>
+               <item>
+                  <hi>12.</hi> The Witneſſes induced by Malice and Rewards.</item>
+            </list>
+         </div>
+         <div type="petition">
+            <pb n="17" facs="tcp:99718:10"/>
+            <head>To the Kings Moſt Excellent Majeſty. The Humble PETITION of <hi>Richard Langborne,</hi> A Priſoner Condemned in the Gaol of <hi>Newgate.</hi>
+            </head>
+            <opener>Humbly ſheweth,</opener>
+            <p>THat Your Majeſties Petitioner, with all gratitude of Heart and Soul imaginable, humbly thanks Your Majeſty for Your Mercy, in giving him Life until <hi>Monday</hi> next.</p>
+            <p>That Your Petitioner is wholly ignorant of the ſubſtance of that Letter mentioned in Your Majeſties Order of Council, of the 3d inſtant, to have been written by the Earl of <hi>Roſcomon,</hi> as alſo of the Grounds upon which it was written; and therefore hopes that Your Majeſty will not permit Your Petitioners Life to be taken away, before that be clear<g ref="char:EOLhyphen"/>ly underſtood.</p>
+            <p>That Your Petitioner having, in obedience to Your Majeſties particular Command, made a full, clear, and ſincere Diſcovery of all thoſe Eſtates which Your Majeſty commanded him to diſcover, humbly offers unto Your Majeſties merciful Conſideration, the Proteſtation and Declaration by Your Petitioner hereunto annexed; by which he no way intends to reflect upon Your Majeſties Juſtice, or the Juſtice of the Judges or Jury by whom he was Tryed: and humbly begs, That the ſame may not be interpreted to intend any ſuch reflection. And that Your Majeſty will pleaſe to conſider, That it is not impoſſible for an innocent perſon to be Condemned, ſince it is not many Years paſt, That Three Perſons were Executed, and Hanged in Chains, being Condemned for the Murder of one, who appeared afterwards to be living: And this without any juſt cauſe of Reflection upon the Juſtice of Your Majeſty, or of their Judges or Jury.</p>
+            <p>That Your Petitioner humbly begs leave to hope. That when Your Majeſty ſhall have conſidered his ſaid Declaration, you will, out of the abundance of Your natural inclinations to Mercy, either vouchſafe to give him his Pardon, ſo as to enable him to ſpend the re<g ref="char:EOLhyphen"/>mainder of His Life, in the Service of Your Majeſty, and his Countrey; or at leaſt, give him leave to live, though it be abroad, and in perpetual Baniſhment, he having fully obeyed Your Majeſties Commands, in diſcovering every thing within his knowledge, which hath been required to be by him diſcovered; and the Caſe of your Petitioner being ſingular, as not having above any one Witneſs to any one particular matter of Fact given in Evidence againſt him, as the Judges can inform Your Majeſty.</p>
+            <p>Your Majeſties Petitioner therefore Humbly caſts himſelf at Your Majeſties Feet, Humbly imploring Your Royal Mercy; and that You will be Graciouſly pleaſed to give him his Life, that he may ſpend it wholly in praying for Your Majeſties long and happy Life, Reign and Government.</p>
+            <closer>
+               <signed>And Your Petitioner (as in Duty bound) ſhall daily pray for Your Mo<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> Sacred Majeſty, &amp;c. <hi>R. Langhorne.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="speech">
+            <pb n="18" facs="tcp:99718:11"/>
+            <head>THE SPEECH OF Richard Langhorne <abbr>Eſq</abbr> At his EXECUTION, <hi>July</hi> 14. 1679. Being left in Writing by him under his own Hand.</head>
+            <argument>
+               <p>IN regard I could not foreſee, whether I ſhould be permitted to ſpeak at my Death, ſo as to make a Publick Declaration of my Innocency and Loyalty, as a Chriſtian ought to do; conſidering likewiſe, That if it ſhould be permitted unto me, it would be more adviſable for me rather to prepare before-hand, and ſet down in Writing the very words in which I ſhould make my Declaration, than to truſt my Memory with them; to the end that the ſame may be well conſidered of, and digeſted by me, and that all Miſtakes might be prevented, as far as may be. I ſay, in regard of this, I have in the preſent Paper reduced what I have to declare, as to my Innocence and Loyalty: And 'tis in theſe following words.</p>
+            </argument>
+            <p>I Do ſolemnly and ſincerely, in the preſence of Almighty God, Profeſs, Teſtifie, and De<g ref="char:EOLhyphen"/>clare, as followeth: <hi>That is to ſay,</hi>
+            </p>
+            <p n="1">1. That I do with my Heart and Soul, believe and own my Moſt Gracious Sovereign Lord, the King's Majeſty, King <hi>CHARLES</hi> II. to be my True and Lawful Sovereign, Prince and King, in the ſame Senſe and Latitude, to all Intents and Purpoſes, as in the Oath commonly called, <hi>The Oath of Allegiance,</hi> His ſaid Majeſty is expreſſed to be King of this Realm of <hi>England.</hi>
+            </p>
+            <p n="2">2. That I do in my Soul believe, That neither the Pope, nor any Prince, Potentate, or Foreign Authority, nor the People of <hi>England,</hi> nor any Authority out of this Kingdom, or within the ſame, hath or have any Right to diſpoſſeſs His ſaid Majeſty of the Crown or Government of <hi>England,</hi> or to Depoſe Him therefrom, for any Cauſe, or pretended Cauſe whatſoever; or to give Licence to me, or to any other of His ſaid Majeſties Subjects whatſoever, to bear Arms againſt His ſaid Majeſty, or to take away His Life, or to do Him any bodily Harm, or to diſturb the Government of this Kingdom, as the ſame is now eſta<g ref="char:EOLhyphen"/>bliſhed by Law; or to alter, or go about to alter the ſaid Government, or the Religion now eſtabliſhed in <hi>England,</hi> by any way of Force.</p>
+            <p n="3">3. That I neither am, nor ever was, at any Time or Times, Guilty, ſo much as in my moſt ſecret Thoughts, of any Treaſon, or Miſpriſion of Treaſon whatſoever.</p>
+            <p n="4">4. That I did not in the Month of <hi>November,</hi> or at any other Time or Times whatſoever, ſay unto Mr <hi>Oates,</hi> or unto any other Perſon or Perſons whatſoever, in relation to my Sons in <hi>Spain,</hi> or either of them, or in relation to any other Perſon or Perſons whatſoever, That if they did continue in the World, (as Secular Prieſts, or otherwiſe) they ſhould ſuddenly
+<pb n="19" facs="tcp:99718:11"/>have great Promotions in <hi>England</hi> for that things would not laſt long in the poſture where<g ref="char:EOLhyphen"/>in they then were; nor did I ever ſay any words to that, or the like effect, to any Perſon or Perſons whatſoever.</p>
+            <p n="5">5. That I did never in all my Life-time write any Letter, or other thing whatſoever, un<g ref="char:EOLhyphen"/>to, or receive any Letter or other thing, from Father <hi>Le Cheeſe,</hi> or any <hi>French</hi> Jeſuit what<g ref="char:EOLhyphen"/>ſoever; or from Father <hi>Anderton,</hi> or Cardinal <hi>Barbarino,</hi> or any other Cardinal; nor did I ever ſee any Letter, or the Copy of any Letter, or other Paper, or other Thing, written, or purporting to be written unto the ſaid <hi>Le Cheeſe,</hi> or unto the ſaid Father <hi>Anderton,</hi> or the ſaid Cardinal <hi>Farbarino,</hi> by any Perſon or Perſons whatſoever, other than the printed Let<g ref="char:EOLhyphen"/>ters, printed in the Narrative of the Tryal of Mr. <hi>Edward Coleman,</hi> lately Executed, which I never ſaw otherwiſe, than in the ſaid printed Narrative; nor did I ever hear any mention made by any Perſon whatſoever, of the name of <hi>Le Cheeſe,</hi> or Father <hi>Le Cheeſe,</hi> before I read the ſaid printed Narrative.</p>
+            <p n="6">6. That I did never in all my Life-time make any Entry or Entries, into any Book or Books, or <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ake, or make, or write, or cauſe to be written into any Book or Books, or other<g ref="char:EOLhyphen"/>wiſe, any Letter or Letters, or any Copy or Copies of any Letter or Letters, written by the ſaid <hi>Edward Coleman,</hi> to any perſon or perſons whatſoever.</p>
+            <p n="7">7. That I did never in all my Life time Enter or Regiſter into any Book or Books, Paper or Papers whatſoever, or take, or make, or write, or cauſe to be written, any Copy or Copies, of any Act or Acts, Conſult or Conſults, Determination or Determinations, Order or Orders, Reſolve or Reſolves, or other matter or thing, at any time made, determined, reſolved, paſſed, decreed, or agitated, at any Congregation or Congregations, Conſult or Conſults, Chapter or Chapters, Aſſembly or Aſſemblies, of the Society or Order of the <hi>Jeſuits,</hi> or of any other Religious Order whatſoever; nor did I ever ſee, read, or heard read, nor did any perſon or perſons, at any time whatſoever, ever communicate unto me, any ſuch Act, Conſult, Determination, Order, Reſolve, Matter or Thing whatſoever.</p>
+            <p n="8">8. That I did never in all my Life-time, to my knowledge, belief or remembrance, ſee or ſpeak with Mr. <hi>Bedloe,</hi> who gave Evidence againſt me at my Tryal, until I ſaw him in that Court wherein he gave Evidence againſt me.</p>
+            <p n="9">9. That after the Month of <hi>November,</hi> which was in the Year of our Lord 1677. I did never ſee or ſpeak with Mr. <hi>Titus Oates</hi> before named, until I ſaw him in the ſame Court where he gave Evidence againſt me at my Tryal.</p>
+            <p n="10">10. That I did never ſee in all my Life time, to my knowledge, belief or remembrance, any Commiſſion or Commiſſions, Patent or Patents, Grant or Grants, Order or Orders, In<g ref="char:EOLhyphen"/>ſtrument or Inſtruments, Writing or Writings, or other Matter or Thing whatſoever, under, or pretended to be under the Hand and Seal, or the Hand or the Seal of <hi>Johannes Paulus de Oliva,</hi> or any other General of the <hi>Jeſuits</hi> whatſoever, other than the Paper or Inſtrument produced and ſhewed unto me in the ſaid. Court at my Tryal, which whether it was ſigned or ſealed by the ſaid <hi>de Oliva,</hi> I do not know.</p>
+            <p n="11">11. That I did never in all my Life-time write, or cauſe, or procure to be written, any Treaſonable Letter or Letters whatſoever, or any thing which was or is Treaſon or Trea<g ref="char:EOLhyphen"/>ſonable, in any Letter or Letters, Book or Books, Paper or Papers, or otherwiſe how<g ref="char:EOLhyphen"/>ſoever.</p>
+            <p n="12">12. That I believe, that if I did know, or ſhould know of any Treaſon or Treaſonable Deſign, that was, or is intended, or ſhould be intended againſt His ſaid Majeſty, or the Go<g ref="char:EOLhyphen"/>vernment of this His Majeſties Kingdom, or for the Alteration by Force, Advice, or other<g ref="char:EOLhyphen"/>wiſe, of the ſaid Government, or of the Religion now Eſtabliſhed in this Kingdom, and ſhould conceal and not diſcover the ſame unto His ſaid Majeſty, or His ſaid Majeſties Coun<g ref="char:EOLhyphen"/>cil or Miniſters, or ſome of them; that ſuch concealment would be in me a Sin unto death, and eternal damnation.</p>
+            <p n="13">13. That I do believe, that it is no ways lawful for me to lye, or ſpeak any thing which I know to be untrue; or to commit any Sin, or do any Evil, that Good may come of it. And that it is not in the power of any Prieſt, or of the Pope, or of God himſelf, to give me a Licence to lye, of to ſpeak any thing which I know to be untrue, becauſe every ſuch Lye would be a ſin againſt Truth: And Almighty God, who is perfect Truth, cannot give me a Licence to commit a ſin againſt his own Eſſence.</p>
+            <pb n="20" facs="tcp:99718:12"/>
+            <p>And I do Solemnly, in the Preſence of God, Profeſs, Teſtifie and Declare, That as I hope for Salvation, and expect any Benefit by the Blood and Paſſion of my deareſt Saviour Jeſus Chriſt, I do make this Declaration and Proteſtation, and every Part thereof, in the plain and ordinary Senſe, wherein the ſame ſtands written, as they are commonly underſtood by <hi>Engliſh</hi> Proteſtants, and the Courts of Juſtice of <hi>England,</hi> without any Evaſion, or Equivoca<g ref="char:EOLhyphen"/>tion, or Deluſion, or Mental Reſervation whatſoever. And without any Diſpenſation or Pard<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n, or Abſolution already granted to me, for this, or any other purpoſe, by the Pope, or any other Power, Authority or Perſon whatſoever; or, without any hope, expectation or deſire of any ſuch Diſpenſation; and without thinking or believing, that I am, or can be acquitted before God or Man, or abſolved of this Declaration, or any part thereof, although the Pope, or any other Perſon or Perſons, or Power or Authority whatſoever, ſhould diſ<g ref="char:EOLhyphen"/>penſe with or take upon him or them to diſpenſe with, or annul the ſame; or declare that it was, or is, or ought to be Null or Void in part, or in the whole, from the beginning, or other<g ref="char:EOLhyphen"/>wiſe howſoever.</p>
+            <p>Having made this Declaration and Proteſtation in the moſt plain Terms that I can poſſibly imagine, to expreſs my ſincere Loyalty and Innocency, and the clear intention of my Soul, I leave it to the judgments of all good and charitable Perſons, whether they will believe what is here in this manner affirmed and ſworn by me in my preſent Circumſtances, or what is ſworn by my Accuſers</p>
+            <p>I do now farther declare, That I dye a Member (though an unworthy one) of that Holy Catholick and Apoſtolick Church of Chriſt, mentioned in the Three Holy and Publick Creeds, of which Church our Lord Jeſus Chriſt is the Inviſible Head of Influence, to illumi<g ref="char:EOLhyphen"/>nate, guide, protect, and govern It, by his Holy Spirit and Grace; and of which Church, the Biſhop of <hi>Rome,</hi> as the Succeſſor of St. <hi>Peter,</hi> the Prince of the Apoſtles, is the viſible Head of Government and Unity.</p>
+            <p>I take it to be clear, That my Religion is the ſole Cauſe, which moved my Accuſers to charge me with the Crime, for which, upon their Evidence, I am adjudged to dye; and that my being of that Religion, which I here profeſs, was the onely ground which could give them any hope to be believed, or which could move my Jury to believe the Evidence of ſuch men.</p>
+            <p>I have had not only a Pardon, but alſo great Advantages, as to Preferments, and Eſtates offered unto me, ſince this Judgment was againſt me, in caſe I would have forſaken my Re<g ref="char:EOLhyphen"/>ligion, and owned my ſelf Guilty of the Crime charged againſt me, and charged the ſame Crimes upon others: But, bleſſed be my God, who, by his Grace, hath preſerved me from yielding to thoſe Temptations, and ſtrengthened me rather to chooſe this Death, than to ſtain my Soul with Sin, and to charge others, againſt Truth, with Crimes, of which I do not know that any Perſon is Guilty.</p>
+            <p>Having ſaid what concerns me to ſay as to my Self, I now humbly beſeech God to bleſs the King's Majeſty with all Temporal and Eternal Bleſſings, and to preſerve Him and his Government from all Treaſons and Traytors whatſoever; and that His Majeſty may never fall into ſuch hands, as His Royal Father of Glorious Memory fell into.</p>
+            <p>I alſo humbly beſeech thee (O God) to give true Repentance and Pardon to all my Ene<g ref="char:EOLhyphen"/>mies, and moſt particularly to the ſaid Mr. <hi>Oates</hi> and Mr. <hi>Bedloe,</hi> and to all who have been any ways acceſſary to the taking away of my Life, and the ſhedding of my innocent Blood, or to the preventing the King's Mercy from being extended unto me; and likewiſe to all thoſe who rejoyced at the Judgment given againſt me, or at the execution of the ſaid Judg<g ref="char:EOLhyphen"/>ment; and to all thoſe who are or ſhall be ſo unchriſtianly uncharitable, as to disbelieve, and to refuſe to give credit unto my now Proteſtations.</p>
+            <p>And I beſeech thee (O my God) to bleſs this whole Nation, and not to lay the Guilt of my Blood unto the Charge of this Nation, or of any other particular Perſon or Perſons of this Nation. Unite all (O my God) unto thee and thy Church, by true Faith, Hope and Charity, for thy mercies ſake.</p>
+            <p>And for all thoſe who have ſhewed Charity to me, I humbly beg (O my Jeſus) that thou wilt reward them with all Bleſſings both Temporal and Eternal.</p>
+            <closer>
+               <dateline>
+                  <date>13 <hi>July,</hi> 1679.</date>
+               </dateline>
+               <signed>R. Langhorne.</signed>
+            </closer>
+         </div>
+         <div type="account_of_execution">
+            <pb n="21" facs="tcp:99718:12"/>
+            <p>
+               <hi>HAving given you now Reader the Speech at length, which Mr.</hi> Langhorne <hi>had prepa<g ref="char:EOLhyphen"/>red (for the Reaſon he mentions) againſt his Execution, it will not be, perchance, ungrateful to you, to know, that when he came down from his Chamber at</hi> Newgate, <hi>to be put into the Sledge, he had it with him, but the Sheriff</hi> (telling him, that he muſt uſe no Papers at the Gallows) <hi>took it away, ſo that he repeated there ſo much of it only as he could remember; therefore to ſatisfie the Curioſity of thoſe alſo, that would know what and how much that was, I ſhall here give you the Particulars, with ſome other things that occurr'd, before he was turned over.</hi>
+            </p>
+            <p>
+               <hi>When the Hangman was putting the Rope over his Head, he took it into his hands, and kiſſed it. Afterwards ſaid:</hi>
+            </p>
+            <p>I do not know whether you will allow me liberty of Speech, or no; and the Noiſe of the People being ſo great, that I believe it is impoſſible to ſpeak to be beard.</p>
+            <p>
+               <hi>SILENCE was Commanded.</hi>
+            </p>
+            <sp>
+               <speaker>Mr. L.</speaker>
+               <p>I would gladly ſpeak to Mr. Sheriff <hi>HOW; who coming up to him, he addreſſed himſelf thus:</hi>
+               </p>
+               <p>
+                  <hi>Mr. Sheriff.</hi> I having ſome doubt, whether I ſhould be ſuffered to ſpeak, in relation to my Innocency and Loyalty, I did, for that Reaſon, prepare what I had to ſay, and what I intended to ſay in Writing, and it is delivered into your hands, <hi>Mr. Sheriff;</hi> and therefore for the par<g ref="char:EOLhyphen"/>ticular and preciſe Words and Expreſſions, I do refer my ſelf to that, and I hope you will be ſo juſt to my Memory, that you will permit it to be ſeen.</p>
+               <p>I ſhall therefore make only a ſhort Preface, and I do declare, in the Preſence of the Eternal God, and as I hope to be ſaved by the Merits and Death of my dear Jeſus, That I am not Guilty directly or indirectly, of any Crime that was ſworn againſt me; I do not ſpeak this to Arraign the Court of Publick Juſtice, either Judges or Jury, but thoſe Men that did ſwear it; and the Jury had liberty to believe, or not believe, as they pleaſed; And I do likewiſe ſay, with the ſame Averrment, That I did never in my Life ſee any Commiſſions or Patent, or any Writing, or any other Thing, under the hand of <hi>Johannes Paulus de Oliva,</hi> &amp;c.</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>
+                  <hi>Nor under no other hand.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>L.</speaker>
+               <p>No, nor under any other hand, of any Commiſſion or Patents, for the Raiſing of an Army, or any Thing elſe againſt the King.</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>
+                  <hi>What was the Patents for? for Nothing!</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>L.</speaker>
+               <p>I never ſaw any, nor do I believe there was any: And whereas I have read in a Narra<g ref="char:EOLhyphen"/>tive, that I ſent a Commiſſion by my Son, to the Lord <hi>Arundel of Warder,</hi> and that I deliver'd another to the Lord <hi>Petre</hi> (or <hi>Peters</hi>) with my own hands, I take God to Witneſs, that I never ſaw him in my life, or ever, to my knowledge, ſaw the face of that Lord; nor did I ſend or know of any thing that was ſent to my Lord <hi>Arundel</hi> of <hi>Warder,</hi> of that nature.</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>
+                  <hi>Shorten your buſineſs, you have, Mr.</hi> Langhorne, <hi>and your Party, ſo many wayes to Equivocate, and after Abſolution you may ſay any thing.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>L.</speaker>
+               <p>I refer my ſelf to that Paper I gave you, <hi>Mr. Sheriff.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>
+                  <hi>I think it is not fit to be Printed. I will do you no wrong</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>L</speaker>
+               <p>I do not think you will.</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>
+                  <hi>You have already printed a Paper, or ſome body for you.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>L.</speaker>
+               <p>Sir, I did not Print it, and it was done without any Direction or Permiſſion of mine.</p>
+            </sp>
+            <p>The Lord preſerve His Majeſty from all manner of Treaſon, and preſerve Him from falling into ſuch Hands, as His Royal Father, of Glorious Memory, fell under; I pray God to forgive my Enemies, as I freely do thoſe that Accuſed me, thoſe that Witneſſed againſt me; and all others that either deſired my Blood, or rejoyce at the ſhedding of it; and all Perſons that have any wayes concern'd themſelves with me, I freely forgive them with all my Soul, and beg my dear Jeſus to forgive them, and all others. God Almighty bleſs you, and bleſs the whole Na<g ref="char:EOLhyphen"/>tion,
+<pb n="22" facs="tcp:99718:13"/>and the Government, and preſerve it from all Evil and Miſchief that I am afraid is coming on it, for the ſhedding of Innocent Blood. Sweet Jeſus, lay not my Innocent Blood to their Charge.</p>
+            <p>I ſhall ſay no more now Publickly.</p>
+            <p>
+               <hi>Asked the Executioner,</hi> Whether the Rope was right or no? <hi>He ſaid, Yes; and he asked him, Whether he did forgive him? To which Mr.</hi> Langhorne <hi>ſaid,</hi> I freely do.</p>
+            <p>I ſhall now recommend my ſelf to God in Private.</p>
+            <sp>
+               <speaker>S.</speaker>
+               <p>
+                  <hi>You may have liberty.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>The Writer. </speaker>
+               <p>
+                  <hi>The Lord have Mercy on your Soul.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>L.</speaker>
+               <p>The Lord in Heaven reward your Charity.</p>
+            </sp>
+            <p>
+               <hi>Croſt himſelf, pray'd again.</hi>
+            </p>
+            <p>Bleſſed Jeſus, into thy Hands I recommend my Soul and Spirit, now at this inſtant take me into Paradice; I am deſirous to be with my Jeſus; I am ready, and you need ſtay no longer for me.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
